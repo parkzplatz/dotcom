@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Happy Jekylling!"
+title: "Parkzplatz | Web Development"
 ---
 
 <div class="parent-logo-div">
