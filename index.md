@@ -5,6 +5,6 @@ title: "Parkzplatz | Web Development"
 
 <div class="parent-logo-div">
     <div class="inner-logo-div">
-        <img src="assets/images/base/parkzplatz-coast.png" />
+        <img src="{{ site.baseurl }}/assets/images/base/parkzplatz-coast.png" />
     </div>
 </div>
