@@ -18,8 +18,9 @@ html, body {
 }
 
 .inner-logo-div img {
-  width: 50vh;
+  width: 500px;
   height: auto;
+  padding: 5em;
 }
 
 /*# sourceMappingURL=main.css.map */
