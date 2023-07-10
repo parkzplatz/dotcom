@@ -4,4 +4,22 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
 }
 
+html, body {
+  margin: 0px;
+  height: 100%;
+}
+
+.parent-logo-div {
+  background-image: url(/assets/images/base/grunge-bkgr.png);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-logo-div img {
+  width: 50vh;
+  height: auto;
+}
+
 /*# sourceMappingURL=main.css.map */

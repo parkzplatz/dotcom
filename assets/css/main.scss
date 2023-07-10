@@ -2,3 +2,20 @@
 ---
 
 @import "base";
+
+html, body {
+    margin:0px;
+    height: 100%;
+  }
+  .parent-logo-div {
+    background-image: url(/assets/images/base/grunge-bkgr.png);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .inner-logo-div img {
+    width: 50vh; height: auto;
+  }
+
