@@ -23,6 +23,13 @@ html, body {
   padding: 5em;
 }
 
+@media only screen and (max-width: 600px) {
+  .inner-logo-div img {
+    width: 50% x;
+    height: auto;
+    padding: 2em;
+  }
+}
 .parent-form-logo {
   text-align: center;
   padding: 1em;
@@ -53,6 +60,13 @@ html, body {
   width: 600px;
   min-width: 600px;
   height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+  .inner-form-div {
+    min-width: 200px;
+    height: auto;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
