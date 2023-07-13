@@ -20,14 +20,8 @@
     {% endif %}
     <meta http-equiv="refresh" content="{{ time }};url={{ page.target }}"/>
     <link rel="canonical" href="{{ page.target }}"/>
+    <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
     <title>{{ title }}</title>
-    <style>
-        body {
-            font-family: sans-serif;
-            max-width: 40em;
-            margin: 1em auto;
-        }
-    </style>
 </head>
 <body>
 
