@@ -23,4 +23,36 @@ html, body {
   padding: 5em;
 }
 
+.parent-form-logo {
+  text-align: center;
+  padding: 1em;
+}
+.parent-form-logo img {
+  max-width: 300px;
+}
+
+.parent-form-div {
+  display: flex;
+  gap: 10px 10px;
+  flex-wrap: wrap;
+  height: auto;
+  justify-content: center;
+}
+
+.content-left {
+  line-height: 150%;
+}
+
+.inner-form-div h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 24pt;
+  font-weight: normal;
+}
+
+.inner-form-div {
+  width: 600px;
+  min-width: 600px;
+  height: auto;
+}
+
 /*# sourceMappingURL=main.css.map */
