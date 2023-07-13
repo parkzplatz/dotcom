@@ -1,4 +1,6 @@
 ---
+layout: default
+title: "Parkzplatz | Web Development | Contact Us"
 ---
 
 # Parkzplatz
