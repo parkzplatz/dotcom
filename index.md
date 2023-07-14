@@ -8,8 +8,8 @@ title: "Parkzplatz | Web Development"
         <img src="{{ "/assets/images/base/parkzplatz-coast2.png" | relative_url }}" />
     </div>
     <div class="social-div">
-        <a href="https://linkedin.com/in/parkzplatz/"><i class="fa-brands fa-linkedin-in"></i></a> <a href="https://linkedin.com/in/parkzplatz/">LinkedIn</a> 
-        <i class="fa-brands fa-facebook-f"></i> Facebook 
-        <i class="fa-brands fa-instagram"></i> Instagram
+        <p><a href="https://linkedin.com/in/parkzplatz/" class="social-link"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="https://www.facebook.com/parkzplatz/" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/parkzplatz/" class="social-link"><i class="fa-brands fa-instagram"></i></a> <strong>&copy; Parkzplatz.com {{ 'now' | date: "%Y" }}</strong> <strong><a href="/contact/">Contact</a></strong></p>
     </div>
 </div>
