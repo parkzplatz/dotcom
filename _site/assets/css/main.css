@@ -36,7 +36,8 @@ html, body {
 .social-link {
   margin-right: 20px;
 }
-.social-link a {
+
+a.social-link {
   color: #5FC5D8;
 }
 

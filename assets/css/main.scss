@@ -35,11 +35,11 @@ html, body {
 
   .social-link {
     margin-right: 20px;
-    a {
-      color: #5FC5D8;
-    }
+ 
   }
-
+  a.social-link {
+    color: #5FC5D8;
+  }
 .parent-form-logo {
   text-align: center;
   padding: 1em;
