@@ -13,14 +13,19 @@ h3 {
   font-weight: normal;
 }
 
-  a {
-    color: #5FC5D8;
-  }
-  .answer {
-    color: #708090;
-  }
+a {
+  color: #5FC5D8;
+}
+
+.question {
+
+}
+
+.answer {
+  color: #708090;
+}
   
-  .parent-logo-div {
+.parent-logo-div {
     background-image: url({{ site.baseurl }}/assets/images/base/shoreline-bkgr.svg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -29,22 +34,16 @@ h3 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  }
+}
 
-  .inner-logo-div {
+.inner-logo-div {
 
-  }
+}
 
-  .inner-logo-div img {
-    width: 500px; height: auto;
-    padding: 5em;
-  }
-  @media only screen and (max-width: 600px) {
-    .inner-logo-div img {
-      width: 50%x; height: auto;
-      padding: 2em;
-    }
-  }
+.inner-logo-div img {
+  width: 500px; height: auto;
+  padding: 5em;
+}
 
   .social-link {
     margin-right: 20px;
@@ -84,9 +83,19 @@ h3 {
     height: auto;
   }
 
-  @media only screen and (max-width: 600px) {
+  @media screen and (max-width: 480px) {
+    .inner-logo-div {
+      margin: 2em;
+    }
+    .inner-logo-div img {
+      width: 100%; height: auto;
+      padding: 0;
+    }
+
     .inner-form-div {
       min-width: 200px;
       height: auto;
     }
-  }
+
+    }
+

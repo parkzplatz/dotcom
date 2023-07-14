@@ -39,13 +39,6 @@ a {
   padding: 5em;
 }
 
-@media only screen and (max-width: 600px) {
-  .inner-logo-div img {
-    width: 50% x;
-    height: auto;
-    padding: 2em;
-  }
-}
 .social-link {
   margin-right: 20px;
 }
@@ -82,7 +75,15 @@ a {
   height: auto;
 }
 
-@media only screen and (max-width: 600px) {
+@media screen and (max-width: 480px) {
+  .inner-logo-div {
+    margin: 2em;
+  }
+  .inner-logo-div img {
+    width: 100%;
+    height: auto;
+    padding: 0;
+  }
   .inner-form-div {
     min-width: 200px;
     height: auto;
