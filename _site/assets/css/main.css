@@ -10,6 +10,10 @@ html, body {
   font-family: "Fira Sans Condensed", sans-serif;
 }
 
+a {
+  color: #5FC5D8;
+}
+
 .parent-logo-div {
   background-image: url(/assets/images/base/shoreline-bkgr.svg);
   background-repeat: no-repeat;
@@ -36,10 +40,6 @@ html, body {
 }
 .social-link {
   margin-right: 20px;
-}
-
-a.social-link {
-  color: #5FC5D8;
 }
 
 .parent-form-logo {
