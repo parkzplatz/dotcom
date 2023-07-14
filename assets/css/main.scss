@@ -13,8 +13,13 @@ html, body {
     background-size: cover;
     height: 100vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+  }
+
+  .inner-logo-div {
+
   }
 
   .inner-logo-div img {
