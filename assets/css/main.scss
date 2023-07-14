@@ -47,7 +47,6 @@ a {
 
   .social-link {
     margin-right: 20px;
- 
   }
 
 .parent-form-logo {
@@ -84,18 +83,26 @@ a {
   }
 
   @media screen and (max-width: 480px) {
+
     .inner-logo-div {
       margin: 2em;
     }
+
     .inner-logo-div img {
       width: 100%; height: auto;
       padding: 0;
+    }
+  
+    .social-div {
+      margin: 2em;
     }
 
     .inner-form-div {
       min-width: 200px;
       height: auto;
     }
+
+
 
     }
 
