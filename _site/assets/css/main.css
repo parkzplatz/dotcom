@@ -39,6 +39,13 @@ a {
   padding: 5em;
 }
 
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
 .social-link {
   margin-right: 20px;
 }
@@ -83,6 +90,9 @@ a {
     width: 100%;
     height: auto;
     padding: 0;
+  }
+  .social-container {
+    flex-direction: column;
   }
   .inner-form-div {
     min-width: 200px;

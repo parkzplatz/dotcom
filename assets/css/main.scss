@@ -45,9 +45,16 @@ a {
   padding: 5em;
 }
 
-  .social-link {
+.social-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-link {
     margin-right: 20px;
-  }
+}
 
 .parent-form-logo {
   text-align: center;
@@ -89,6 +96,9 @@ a {
     .inner-logo-div img {
       width: 100%; height: auto;
       padding: 0;
+    }
+    .social-container {
+      flex-direction: column;
     }
     .inner-form-div {
       min-width: 200px;
