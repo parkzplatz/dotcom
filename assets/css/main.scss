@@ -89,11 +89,13 @@ a {
     height: auto;
   }
 
+  .inner-form-div iframe {
+    width: 600px;
+    height: 1500px;
+  }
+
   @media screen and (max-width: 480px) {
     .parent-logo-div {
-      padding: 2em;
-    }
-    .parent-form-div {
       padding: 2em;
     }
     .inner-logo-div img {
@@ -103,9 +105,17 @@ a {
     .social-container {
       flex-direction: column;
     }
+    .inner-form-div.content-left {
+      padding: 2em;
+    }
     .inner-form-div {
       min-width: 200px;
       height: auto;
     }
+    .inner-form-div iframe {
+      margin: 0;
+      width: 100%;
+      height: 1500px;
     }
 
+    }
