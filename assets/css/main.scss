@@ -8,7 +8,9 @@ html, body {
     height: 100%;
   }
   .parent-logo-div {
-    background-image: url({{ site.baseurl }}/assets/images/base/grunge-bkgr.png);
+    background-image: url({{ site.baseurl }}/assets/images/base/shoreline-bkgr.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vh;
     display: flex;
     justify-content: center;
