@@ -6,7 +6,6 @@ body {
 
 html, body {
   margin: 0px;
-  height: 100%;
   font-family: "Fira Sans Condensed", sans-serif;
 }
 
@@ -51,11 +50,12 @@ a {
 }
 
 .parent-form-logo {
+  background-color: #FECB00;
   text-align: center;
-  padding: 1em;
+  padding: 12em;
 }
 .parent-form-logo img {
-  max-width: 300px;
+  width: 300px;
 }
 
 .parent-form-div {
@@ -87,9 +87,21 @@ a {
   height: 1260px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (min-width: 600px) {
+  .screenfit {
+    min-height: 100vh;
+  }
+}
+@media screen and (max-width: 600px) {
   .parent-logo-div {
     padding: 2em;
+  }
+  .parent-form-logo {
+    padding: 0;
+  }
+  .parent-form-logo img {
+    width: 50%;
+    height: auto;
   }
   .inner-logo-div img {
     width: 100%;
@@ -103,12 +115,13 @@ a {
     padding: 2em;
   }
   .inner-form-div {
-    min-width: 200px;
-    height: auto;
+    width: 100% !important;
+    min-width: 100% !important;
   }
   .inner-form-div iframe {
     margin: 0;
-    width: 100%;
+    width: 100% !important;
+    min-width: 100% !important;
     height: 1260px;
   }
 }
