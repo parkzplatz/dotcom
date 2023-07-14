@@ -34,8 +34,10 @@ html, body {
   }
 
   .social-link {
-    border: 1px solid black;
     margin-right: 20px;
+    a {
+      color: #5FC5D8;
+    }
   }
 
 .parent-form-logo {
