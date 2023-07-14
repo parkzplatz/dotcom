@@ -6,6 +6,7 @@
 html, body {
     margin:0px;
     height: 100%;
+    font-family: 'Fira Sans Condensed', sans-serif;
   }
   .parent-logo-div {
     background-image: url({{ site.baseurl }}/assets/images/base/shoreline-bkgr.svg);
