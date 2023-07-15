@@ -82,6 +82,10 @@ a {
   height: auto;
 }
 
+.inner-form-div i {
+  color: #FECB00;
+}
+
 .inner-form-div iframe {
   width: 600px;
   height: 1260px;
