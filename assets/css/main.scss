@@ -58,6 +58,8 @@ a {
   img {
     width: 300px;
   }
+  border-bottom: 1px solid black;
+  margin-bottom: 2em;
 }
 
   .parent-form-div {
@@ -97,6 +99,10 @@ a {
   @media screen and (min-width: 600px) {
     .screenfit {
       min-height: 100vh;
+      border-bottom: 4px solid black;
+    }
+    .inner-form-div iframe {
+      margin-top: 2em;
     }
   }
   @media screen and (max-width: 600px) {
@@ -131,6 +137,7 @@ a {
 
     .inner-form-div iframe {
       margin: 0;
+      margin-top: 2em;
       width: 100% !important;
       min-width: 100% !important;
       height: 1260px;
