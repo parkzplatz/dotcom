@@ -102,6 +102,8 @@ a {
   .parent-form-logo img {
     width: 50%;
     height: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .inner-logo-div img {
     width: 100%;
@@ -111,12 +113,9 @@ a {
   .social-container {
     flex-direction: column;
   }
-  .inner-form-div.content-left {
-    padding: 2em;
-  }
   .inner-form-div {
-    width: 100% !important;
-    min-width: 100% !important;
+    width: 95% !important;
+    min-width: 95% !important;
   }
   .inner-form-div iframe {
     margin: 0;
