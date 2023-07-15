@@ -139,5 +139,8 @@ a {
     height: 1260px;
   }
 }
+.f6, .formFooter, .branding21 {
+  opacity: 0 !important;
+}
 
 /*# sourceMappingURL=main.css.map */
