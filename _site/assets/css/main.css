@@ -103,6 +103,9 @@ a {
   }
 }
 @media screen and (max-width: 600px) {
+  .screenfit {
+    border-bottom: 4px solid black;
+  }
   .parent-logo-div {
     padding: 2em;
   }
