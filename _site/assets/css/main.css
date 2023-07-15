@@ -60,7 +60,7 @@ a {
 
 .parent-form-div {
   display: flex;
-  gap: 10px 10px;
+  gap: 0em 6em;
   flex-wrap: wrap;
   height: auto;
   justify-content: center;
