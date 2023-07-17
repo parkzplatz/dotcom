@@ -38,17 +38,40 @@
 </div>
 
 <div class="parent-form-div">
-<a name="form"></a>
-<div class="inner-form-div level2">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSelgCTP42bcgABCJopqRiy7Kvg40D8lu2v4vS_AiHkQSQZ1ew/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
+<div class="inner-form-div content-left">
+    <a name="form"></a><h2>Get In Touch <i class="fa-solid fa-hands-clapping"></i></h2>
+    <div id="form-success">
+    </div>  
+</div>
+<div class="inner-form-div content-right">
+<form id="googleForm">
+    <label for="entry.2077360209">Full Name*</label><br />
+    <input type="text" name="entry.2077360209" placeholder="" required><br />
+    <label for="entry.1504931136">Organization</label><br />
+    <input type="text" name="entry.1504931136" placeholder=""><br />
+    <label for="entry.687528941">E-mail Address*</label><br />
+    <input type="text" name="entry.687528941" placeholder="" required><br />
+    <label for="entry.1769884582">Phone Number</label><br />
+    <input type="text" name="entry.1769884582" placeholder=""><br />
+    <label for="entry.1737031255">Contact Preference*</label><br />
+    <select id="entry.1737031255" name="entry.1737031255" required>
+        <option value="" selected disabled hidden>Choose an option</option>
+	    <option value="Text Message">Text Message</option>
+	    <option value="Email">Email</option>
+	    <option value="Phone Call">Phone Call</option>
+    </select><br />
+    <label for="entry.6665678">How Can We Help?</label><br />
+    <textarea id="entry.6665678" name="entry.6665678" rows="10" columns="30" placeholder="" required></textarea><br />
+    <button type="submit">Continue</button> or <button type="reset">Clear Form</button>
+</form>
 </div>
 </div>
+
+<script type="text/javascript" src="/assets/js/googleForm.js"></script>
 
 <div class="parent-form-footer">
     
 </div>
-
-
 
   </body>
 </html>

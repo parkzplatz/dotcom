@@ -1,18 +1,9 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta charset="utf-8">
-    <title>Parkzplatz | Web Development | Contact Us - </title>
-    <link rel="stylesheet" href="/assets/css/main.css">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed">
-    <link rel="preload" href="/assets/images/base/shoreline-bkgr.svg" as="image" />
-    <script src="https://kit.fontawesome.com/70c5d45bed.js" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-  </head>
-  <body>
-    <div class="screenfit">
-<div class="parent-form-logo"><a href="https://parkzplatz.com/"><img src="/assets/images/base/parkzplatz-white.png" alt="Parkzplatz" /></a></div>
+---
+layout: default
+title: "Parkzplatz | Web Development | Contact Us"
+---
+<div class="screenfit">
+<div class="parent-form-logo"><a href="https://parkzplatz.com/"><img src="{{ "/assets/images/base/parkzplatz-white.png" | relative_url }}" alt="Parkzplatz" /></a></div>
 
 <div class="parent-form-div">
 <div class="inner-form-div content-left">
@@ -37,18 +28,8 @@
 </div>
 </div>
 
-<div class="parent-form-div">
-<a name="form"></a>
-<div class="inner-form-div level2">
-    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSelgCTP42bcgABCJopqRiy7Kvg40D8lu2v4vS_AiHkQSQZ1ew/viewform?embedded=true" frameborder="0" marginheight="0" marginwidth="0" scrolling="no">Loading…</iframe>
-</div>
-</div>
+{% include googleForm.html %}
 
 <div class="parent-form-footer">
     
 </div>
-
-
-
-  </body>
-</html>
