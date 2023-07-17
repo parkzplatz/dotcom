@@ -14,6 +14,6 @@ title: "Parkzplatz | Web Development"
         <a href="https://www.facebook.com/parkzplatz/" class="social-link"><i class="fa-brands fa-facebook-f"></i></a>
         <a href="https://www.instagram.com/parkzplatz/" class="social-link"><i class="fa-brands fa-instagram"></i></a></p>
     </div>
-    <div class="social-div"><p><span class="social-link">&copy; Parkzplatz.com 1999-{{ 'now' | date: "%Y" }}</span> <a href="/contact/">F.A.Q./Contact</a></p></div>
+    <div class="social-div"><p><span class="social-link">&copy; Parkzplatz.com {{ 'now' | date: "%Y" }}</span> <a href="/contact/">F.A.Q./Contact</a></p></div>
     </div>
 </div>
