@@ -1,0 +1,100 @@
+
+/* RESET 
+============================== */
+
+$bodyFont: "Fira Sans Condensed",-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+$bodyColor: #000000;
+
+// Fix box-sizing model
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+// Fix default margin
+* {
+    margin: 0;
+    padding: 0;
+}
+
+// Fix typography
+body {
+    font-family: $bodyFont;
+    color: $bodyColor;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+input, button, textarea, select {
+    font: inherit;
+}
+
+// Fix media defaults
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+
+// Fix text-overflow
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+
+// Creat root stacking context
+#root, #__next {
+    isolation: isolate;
+}
+
+
+
+
+/* THEME
+============================== */
+
+#pageWrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+#pageHeader { 
+    background-color: blue;
+    /* .headerLogo { ... }
+    .__white { ... } */
+}
+
+#pageContent { 
+    background-color: yellow;
+    padding: 2em 10em;
+
+    .answer { padding-bottom: 1em; }
+    .answer:last-child { padding-bottom: 0; }
+
+    .contentRow {
+        display: flex;
+        flex-wrap: wrap;
+
+        h2 { font-size: 2.6rem; font-weight: 500; }
+        h3 { font-weight: normal; }
+
+        .__left { 
+            margin: 0;
+            padding: 0;
+            width: 50%;
+            min-width: 300px;
+            flex-grow: 1;
+            background-color: white;
+        }
+        .__right { 
+            margin: 0;
+            padding: 0;
+            width: 50%;
+            min-width: 300px;
+            flex-grow: 1;
+            background-color: black;
+        }
+    }
+}
+
+#pageFooter { 
+    background-color: purple;
+    /* .footerRow { ... } */
+}
