@@ -46,9 +46,8 @@ p, h1, h2, h3, h4, h5, h6 {
   .__white { ... } */
 }
 
-#pageContent {
-  background-color: yellow;
-  padding: 2em 10em;
+#pageContent a {
+  color: #5FC5D8;
 }
 #pageContent .answer {
   padding-bottom: 1em;
@@ -56,9 +55,17 @@ p, h1, h2, h3, h4, h5, h6 {
 #pageContent .answer:last-child {
   padding-bottom: 0;
 }
+@media only screen and (min-width: 600px) {
+  #pageContent {
+    max-width: 1600px;
+    align-self: center;
+  }
+}
 #pageContent .contentRow {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin: 2em 0;
 }
 #pageContent .contentRow h2 {
   font-size: 2.6rem;
@@ -67,21 +74,37 @@ p, h1, h2, h3, h4, h5, h6 {
 #pageContent .contentRow h3 {
   font-weight: normal;
 }
+#pageContent .contentRow p {
+  color: #595959;
+}
 #pageContent .contentRow .__left {
   margin: 0;
-  padding: 0;
+  padding: 0 2em;
   width: 50%;
   min-width: 300px;
   flex-grow: 1;
-  background-color: white;
 }
 #pageContent .contentRow .__right {
   margin: 0;
-  padding: 0;
+  padding: 0 2em;
   width: 50%;
   min-width: 300px;
   flex-grow: 1;
-  background-color: black;
+}
+@media only screen and (min-width: 600px) {
+  #pageContent .contentRow .__push-textarea {
+    padding-top: 2.6em;
+  }
+}
+
+#googleForm input, #googleForm button, #googleForm textarea, #googleForm select {
+  padding: 10px;
+  margin: 5px 0;
+  width: 50%;
+}
+#googleForm button {
+  border: none;
+  background-color: #FECB00;
 }
 
 #pageFooter {
