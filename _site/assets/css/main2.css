@@ -179,13 +179,19 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #pageFooter {
   display: flex;
+  flex-direction: column;
   background-color: #000000;
   padding: 5em 0;
-  justify-content: center;
+  align-items: center;
 }
 #pageFooter .footerRow {
   color: white;
   padding: 0.5em 0;
+}
+#pageFooter .footerRow a {
+  color: #FECB00;
+  font-size: larger;
+  margin: 0.5em 0;
 }
 
 /*# sourceMappingURL=main2.css.map */

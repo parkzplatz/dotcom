@@ -168,8 +168,16 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #pageFooter { 
     display: flex;
+    flex-direction: column;
     background-color: #000000;
     padding: 5em 0;
-    justify-content: center;
-    .footerRow { color: white; padding: .5em 0; }
+    align-items: center;
+    .footerRow { 
+        color: white; padding: .5em 0;
+        a {
+            color:#FECB00;
+            font-size: larger;
+            margin: .5em 0;
+        }
+    }
 }
