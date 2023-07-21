@@ -97,7 +97,7 @@ p, h1, h2, h3, h4, h5, h6 {
 
         @media only screen and (min-width: 600px) {
             .__push-textarea {
-                padding-top: 2.6em;
+                padding-top: 3.9em;
             }
         }
     }
@@ -107,11 +107,12 @@ p, h1, h2, h3, h4, h5, h6 {
     input, button, textarea, select {
         padding: 10px;
         margin: 5px 0;
-        width: 50%;
+        width: 100%;
     }
     button {
         border: none;
         background-color: #FECB00;
+        width: 50%;
     }
 }
 
