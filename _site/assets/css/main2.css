@@ -46,6 +46,9 @@ p, h1, h2, h3, h4, h5, h6 {
   .__white { ... } */
 }
 
+#pageContent {
+  margin-bottom: 2em;
+}
 #pageContent a {
   color: #5FC5D8;
 }
@@ -68,11 +71,12 @@ p, h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  margin: 2em 0;
+  margin: 0;
 }
 #pageContent .contentRow h2 {
   font-size: 2.6rem;
   font-weight: 500;
+  margin: 0.5em 0;
 }
 #pageContent .contentRow h3 {
   font-weight: normal;
@@ -94,9 +98,9 @@ p, h1, h2, h3, h4, h5, h6 {
   min-width: 300px;
   flex-grow: 1;
 }
-@media only screen and (min-width: 600px) {
-  #pageContent .contentRow .__push-textarea {
-    padding-top: 3.9em;
+@media only screen and (max-width: 600px) {
+  #pageContent .contentRow .__right h2.padding {
+    display: none;
   }
 }
 
