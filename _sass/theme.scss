@@ -177,7 +177,10 @@ p, h1, h2, h3, h4, h5, h6 {
         a {
             color:#FECB00;
             font-size: larger;
-            margin: .5em 0;
+            margin: .5em;
+            &:hover {
+                color:#5FC5D8;
+            }
         }
     }
 }
