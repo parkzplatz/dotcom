@@ -56,7 +56,7 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 #pageHeader { 
-    background-color: blue;
+    background-color: #FECB00;
     /* .headerLogo { ... }
     .__white { ... } */
 }
@@ -106,19 +106,37 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #googleForm {
     input, button, textarea, select {
-        
         padding: 10px;
         margin: 5px 0;
         width: 100%;
     }
     button {
         border: none;
-        background-color: #FECB00;
         width: 50%;
+        border-radius: 5px;
+    }
+    button.send {
+        background-color: #FECB00;
+        &:hover {
+            background-color: #5FC5D8;
+        }
+        &:active {
+            transform: translateY(4px);
+        }
+    }
+    button.reset {
+        background-color: white;
+        border: 1px solid #E5E4E2;
+        &:hover {
+            background-color: #5FC5D8;
+        }
+        &:active {
+            transform: translateY(4px);
+        }
     }
 }
 
 #pageFooter { 
-    background-color: purple;
+    background-color: #000000;
     /* .footerRow { ... } */
 }
