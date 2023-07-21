@@ -42,8 +42,15 @@ p, h1, h2, h3, h4, h5, h6 {
 
 #pageHeader {
   background-color: #FECB00;
-  /* .headerLogo { ... }
-  .__white { ... } */
+  display: flex;
+  justify-content: center;
+  padding: 10em 0;
+  /* .__white { ... } */
+}
+#pageHeader .headerLogo {
+  margin: 0;
+  padding: 0 20px;
+  width: 30em;
 }
 
 #pageContent {
@@ -171,8 +178,14 @@ p, h1, h2, h3, h4, h5, h6 {
 }
 
 #pageFooter {
+  display: flex;
   background-color: #000000;
-  /* .footerRow { ... } */
+  padding: 5em 0;
+  justify-content: center;
+}
+#pageFooter .footerRow {
+  color: white;
+  padding: 0.5em 0;
 }
 
 /*# sourceMappingURL=main2.css.map */
