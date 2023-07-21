@@ -11,17 +11,17 @@
         statusCode: { //the status code from the POST request
             0: function(data) { //0 is when Google gives a CORS error, don't worry it went through
             //success
-            // $('#form-success').text('Hooray! 0').addClass("contentRow");
-            $('#updateOnSuccess').html("<div id='formSent' class='__left'></div><div class='__right'></div>");
-            $('#formSent').html("<h2>Reach Out</h2>")
-            .append("<p>Thank you! Your message has been submitted.</p> <p>We will be in touch as soon as possible; please allow 24-48 hours.</p>");
+            // $('#form-success').text('hooray! 0');
+            $('#updateOnSuccess').html("<div id='formResponse' class='__left'></div><div class='__right'></div>");
+            $('#formResponse').html("<h2>Reach Out</h2>")
+            .append("<p><i class='fa-regular fa-envelope fa-lg'></i> Thanks for your message! Please allow 24-48 hours for a response. We'll get back to you as soon as possible.</p>");
             }, 
             200: function(data) {//200 is a success code. it went through!
             //success
-            // $('#form-success').text('Hooray! 200').addClass("contentRow");
-            $('#updateOnSuccess').html("<div id='formSent' class='__left'></div><div class='__right'></div>");
-            $('#formSent').html("<h2>Reach Out</h2>")
-            .append("<p>Thank you! Your message has been submitted.</p> <p>We will be in touch as soon as possible; please allow 24-48 hours.</p>");
+            // $('#form-success').text('hooray! 200');
+            $('#updateOnSuccess').html("<div id='formResponse' class='__left'></div><div class='__right'></div>");
+            $('#formResponse').html("<h2>Reach Out</h2>")
+            .append("<p><i class='fa-regular fa-envelope fa-lg'></i> Thanks for your message! Please allow 24-48 hours for a response. We'll get back to you as soon as possible.</p>");
             },
             403: function(data) {//403 is when something went wrong and the submission didn't go through
             //error

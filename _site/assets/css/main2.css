@@ -108,6 +108,42 @@ p, h1, h2, h3, h4, h5, h6 {
   padding: 10px;
   margin: 5px 0;
   width: 100%;
+  border-width: 1px;
+}
+#googleForm input:required, #googleForm button:required, #googleForm textarea:required, #googleForm select:required {
+  border-right: 4px solid #FECB00;
+}
+#googleForm .required {
+  font-size: x-small;
+  color: white;
+  margin-left: 6px;
+  padding: 0.2em 0.4em;
+  background-color: #595959;
+  border-radius: 10px;
+}
+#googleForm .buttonArea {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+#googleForm .buttonArea .item {
+  width: 50%;
+}
+@media only screen and (max-width: 1600px) {
+  #googleForm .buttonArea .item {
+    width: 100%;
+  }
+}
+@media only screen and (min-width: 1600px) {
+  #googleForm .buttonArea :nth-child(1) {
+    order: 1;
+  }
+  #googleForm .buttonArea :nth-child(2) {
+    order: 2;
+  }
+  #googleForm .buttonArea :nth-child(3) {
+    order: 1;
+  }
 }
 #googleForm button {
   border: none;

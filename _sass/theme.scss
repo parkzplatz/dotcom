@@ -108,7 +108,35 @@ p, h1, h2, h3, h4, h5, h6 {
         padding: 10px;
         margin: 5px 0;
         width: 100%;
+        border-width: 1px;
+        &:required {
+            border-right: 4px solid #FECB00;
+        }
     }
+
+    .required { font-size: x-small; color: white; margin-left: 6px; padding: .2em .4em; background-color: #595959; border-radius: 10px; }
+
+    .buttonArea {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        .item {
+            width: 50%;
+        }
+        @media only screen and (max-width: 1600px) {
+            .item {
+                width: 100%;
+            }
+        }
+
+    }
+
+    @media only screen and (min-width: 1600px) {
+        .buttonArea :nth-child(1) { order: 1; }
+        .buttonArea :nth-child(2) { order: 2; }
+        .buttonArea :nth-child(3) { order: 1; }
+    }
+
     button {
         border: none;
         width: 50%;

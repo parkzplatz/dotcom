@@ -47,27 +47,31 @@
     <div class="contentRow" id="updateOnSuccess">
         <div class="__left">
             <h2>Reach Out</h2>
-            <label for="entry.2077360209">Full Name*</label><br />
+            <label for="entry.2077360209">Full Name <span class="required">required</span></label><br />
             <input type="text" name="entry.2077360209" placeholder="" required><br />
             <label for="entry.1504931136">Organization</label><br />
             <input type="text" name="entry.1504931136" placeholder=""><br />
-            <label for="entry.687528941">E-mail Address*</label><br />
+            <label for="entry.687528941">E-mail Address <span class="required">required</span></label><br />
             <input type="text" name="entry.687528941" placeholder="" required><br />
             <label for="entry.1769884582">Phone Number</label><br />
             <input type="text" name="entry.1769884582" placeholder=""><br />
-            <label for="entry.1737031255">Contact Preference*</label><br />
+            <label for="entry.1737031255">Contact Preference <span class="required">required</span></label><br />
             <select id="entry.1737031255" name="entry.1737031255" required>
                 <option value="" selected disabled hidden>Choose an option</option>
-                <option value="Text Message">Text Message</option>
                 <option value="Email">Email</option>
+                <option value="Text Message">Text Message</option>
                 <option value="Phone Call">Phone Call</option>
             </select>
         </div>
         <div class="__right">
             <h2 class="padding">&nbsp;</h2>
-            <label for="entry.6665678">How Can We Help?</label><br />
-            <textarea id="entry.6665678" name="entry.6665678" rows="10" columns="30" placeholder="" required></textarea><br />
-            <button class="send" type="submit">Continue</button> <button class="reset" type="reset">Clear Form</button>
+            <label for="entry.6665678">How Can We Help? <span class="required">required</span></label><br />
+            <textarea id="entry.6665678" name="entry.6665678" rows="10" columns="30" placeholder="" required></textarea>
+            <div class="buttonArea">
+                <div class="item"><button class="send" type="submit">Continue</button></div>
+                <div class="item"><button class="reset" type="reset">Clear Form</button></div>
+                <div class="item">All fields marked with the <span class="required">required</span> label are required.</div>
+            </div>
         </div>
     </div>
 </form>
