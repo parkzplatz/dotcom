@@ -55,6 +55,9 @@ p, h1, h2, h3, h4, h5, h6 {
 #pageContent .answer:last-child {
   padding-bottom: 0;
 }
+#pageContent .fa-regular {
+  color: #FECB00;
+}
 @media only screen and (min-width: 600px) {
   #pageContent {
     max-width: 1600px;
