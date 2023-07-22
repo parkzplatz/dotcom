@@ -11,7 +11,19 @@
         "**/.vscode": true,
         ".vscode": true,
         "**/.jekyll-cache": true,
-        ".jekyll-cache": true
+        ".jekyll-cache": true,
+        "**/Gemfile.lock": true,
+        "*.lock": true,
+        "Gemfile.lock": true,
+        "**/*.lock": true,
+        "**/Gemfile": true,
+        "Gemfile": true,
+        "**/CNAME": true,
+        "CNAME": true,
+        "**/_config.yml": true,
+        "*.yml": true,
+        "_config.yml": true,
+        "**/*.yml": true
     },
     "explorerExclude.backup": {}
 }
