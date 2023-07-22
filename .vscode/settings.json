@@ -1,0 +1,17 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/_site": true,
+        "_site": true,
+        "**/.vscode": true,
+        ".vscode": true,
+        "**/.jekyll-cache": true,
+        ".jekyll-cache": true
+    },
+    "explorerExclude.backup": {}
+}
